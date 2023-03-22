@@ -18,8 +18,8 @@ discordInvite.init({
 </script>
 <div id="discordInviteBox"></div>
 
-This website has all the same information and is updated daily.
-It's also basically a copy of [PvME](https://pvme.github.io/) edited to fit Clue Chasers.
+- This website has all the same information and is updated daily.
+- It's a copy of [PvME](https://pvme.github.io) edited to fit Clue Chasers.
 
 ## Motivation
 
