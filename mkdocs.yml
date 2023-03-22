@@ -63,7 +63,7 @@ extra_javascript:
 nav:
   - index.md
   - About:
-    - Info: about/info.md
+    - Information: about/info.md
     - Keyboard Shortcuts: about/shortcuts.md
     - How The Site Works: about/workings.md
     - Changelog: about/changelog.md
