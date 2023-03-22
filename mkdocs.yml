@@ -1,6 +1,6 @@
 site_name: Clue Chasers
 site_url: https://clue-chasers.github.io
-site_description: "Clue Chasers Description."
+site_description: "Clue Chasers content outside of Discord."
 
 theme:
   name: material
