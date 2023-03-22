@@ -2,7 +2,12 @@
 
 Updates for the website.
 
-For bugs or feature requests, message me on Discord (Pleb#0025) or create an issue on [Github](https://github.com/pvme/pvme.github.io).
+For bugs or feature requests, message either (Pleb#0025) / (Saltea#5509) on Discord or create an issue on [Github](https://github.com/Clue-Chasers/Clue-Chasers.github.io).
+
+## March, 22, 2023
+
+- Copied over to be used by the Clue Chasers Discord.
+- Anything below this Changelog refers to PvME.
 
 ## November, 13, 2022
 
