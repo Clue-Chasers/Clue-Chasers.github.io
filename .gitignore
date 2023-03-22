@@ -1,0 +1,26 @@
+# PyCharm
+.idea
+
+# VS code
+.vscode
+
+# Python
+*.pyc
+__pycache__
+
+# google docs api
+credentials.json
+
+# tox
+.tox
+.coverage
+
+# mkdocs
+site
+docs/cc-master
+
+# repo
+cc-master
+
+# env file
+.env

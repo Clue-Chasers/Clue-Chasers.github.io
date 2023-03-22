@@ -1,0 +1,6 @@
+files:
+  includes:
+    - getting-started/**/*.txt
+    - gathering-clues/**/*.txt
+    - solving-clues/**/*.txt
+    - hall-of-fame/**/*.txt

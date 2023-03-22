@@ -1,0 +1,69 @@
+site_name: Clue Chasers
+site_url: https://clue-chasers.github.io
+site_description: "Clue Chasers Description."
+
+theme:
+  name: material
+  logo: assets/logo-no-bg.png
+  custom_dir: overrides
+  favicon: assets/logo.ico
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+  #  - search.share
+    - navigation.top
+#    - navigation.indexes
+
+  # check https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=colo#primary-color
+  palette:
+  - scheme: slate
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+
+  - scheme: default
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+
+
+plugins:
+- search
+#- git-revision-date-localized
+- macros
+- gen-files:
+    scripts:
+      - gen_pages.py
+
+markdown_extensions:
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.saneheaders
+  - pymdownx.tilde
+  - pymdownx.emoji
+  - admonition
+  - footnotes
+# - pymdownx.extra (markdown formatting in HTMl blocks)
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/discordEmbed.css
+  - stylesheets/discordInvite.css
+
+extra_javascript:
+  - javascripts/discordInvite.js
+
+nav:
+  - index.md
+  - About:
+    - Info: about/info.md
+    - Keyboard Shortcuts: about/shortcuts.md
+    - How The Site Works: about/workings.md
+    - Changelog: about/changelog.md
