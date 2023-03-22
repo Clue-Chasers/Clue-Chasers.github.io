@@ -3,14 +3,14 @@ name: build
 on:
   push:
     branches:
-      - master
+      - main
 
 #  schedule:
 #    - cron: '0 1 * * *'
 
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -32,9 +32,9 @@ jobs:
         run: git clone --depth 1 https://github.com/Clue-Chasers/cc-master.git
       
       - name: Test build website
-        if: github.event.pull_request.base.ref == 'master'
+        if: github.event.pull_request.base.ref == 'main'
         run: pipenv run mkdocs build
         
       - name: Update website
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: pipenv run mkdocs gh-deploy --force
