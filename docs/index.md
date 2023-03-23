@@ -6,7 +6,7 @@ hide:
 # Home
 
 
-Clue Chasers is a [Discord server](https://discord.gg/6djqFVN) with the largest collection of RS3 Clue related content.
+Clue Chasers is a [Discord server](https://discord.gg/cluechasers) with the largest collection of RS3 Clue related content.
 
 <script src="javascripts/discordInvite.js"></script>
 <script>
