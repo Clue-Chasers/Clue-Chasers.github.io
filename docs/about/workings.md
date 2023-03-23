@@ -2,7 +2,7 @@
 
 Full process on [Github](https://github.com/Clue-Chasers/Clue-Chasers.github.io), and in short:
 
-1. Gather the `.txt` files from the [clue chasers master repository](https://github.com/Clue-Chasers/Clue-Chasers.github.io).
+1. Gather the `.txt` files from the [clue chasers master repository](https://github.com/Clue-Chasers/cc-master).
 2. Format `.txt` -> `.md`.
 3. Build the website from the `.md` files using [MKDocs Material](https://squidfunk.github.io/mkdocs-material).
 
@@ -10,7 +10,7 @@ Full process on [Github](https://github.com/Clue-Chasers/Clue-Chasers.github.io)
 
 First and foremost, the information on the website are always up-to-date with the Clue Chasers Discord Server.
 
-This is because both are using the `.txt` guides from the [clue chasers master repository](https://github.com/Clue-Chasers/Clue-Chasers.github.io).
+This is because both are using the `.txt` guides from the [clue chasers master repository](https://github.com/Clue-Chasers/cc-master).
 
 I try to stay ahead of this by adding formatting rules that exclude or change Discord-only content.
 
