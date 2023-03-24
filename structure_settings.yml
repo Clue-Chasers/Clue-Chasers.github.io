@@ -12,5 +12,9 @@ files:
   - gathering-clues/elite-gathering/*.txt
   - gathering-clues/master-gathering.txt
   - gathering-clues/scripture-of-bik-gathering/*.txt
-  - solving-clues/**/*.txt
+  - solving-clues/easy-clue-guide.txt
+  - solving-clues/medium-clue-guide.txt
+  - solving-clues/hard-clue-guide.txt
+  - solving-clues/elite-clue-guide.txt
+  - solving-clues/master-clue-guide.txt
   - hall-of-fame/**/*.txt
