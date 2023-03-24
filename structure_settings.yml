@@ -17,4 +17,8 @@ files:
   - solving-clues/hard-clue-guide.txt
   - solving-clues/elite-clue-guide.txt
   - solving-clues/master-clue-guide.txt
-  - hall-of-fame/**/*.txt
+  - hall-of-fame/explanation.txt
+  - hall-of-fame/golden-clue-titles.txt
+  - hall-of-fame/golden-clue-title-progress.txt
+  - hall-of-fame/most-of-a-broadcast.txt
+  - hall-of-fame/other-accomplishments.txt
