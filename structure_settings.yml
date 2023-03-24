@@ -1,6 +1,5 @@
 files:
   includes:
-  - getting-started/quick-start.txt
   - getting-started/faq.txt
   - getting-started/alt1.txt
   - getting-started/requirements.txt
