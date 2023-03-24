@@ -10,6 +10,7 @@ files:
   - gathering-clues/elite-gathering/*.txt
   - gathering-clues/master-gathering.txt
   - gathering-clues/scripture-of-bik-gathering/*.txt
+  - solving-clues/preset-maker.txt
   - solving-clues/easy-clue-guide.txt
   - solving-clues/medium-clue-guide.txt
   - solving-clues/hard-clue-guide.txt
