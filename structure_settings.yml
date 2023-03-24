@@ -1,6 +1,11 @@
 files:
   includes:
-    - getting-started/**/*.txt
-    - gathering-clues/**/*.txt
-    - solving-clues/**/*.txt
-    - hall-of-fame/**/*.txt
+  - getting-started/**/*.txt
+  - gathering-clues/easy-gathering.txt
+  - gathering-clues/medium-gathering.txt
+  - gathering-clues/elite-gathering/*.txt
+  - gathering-clues/hard-gathering/*.txt
+  - gathering-clues/master-gathering.txt
+  - gathering-clues/scripture-of-bik-gathering/*.txt
+  - solving-clues/**/*.txt
+  - hall-of-fame/**/*.txt
