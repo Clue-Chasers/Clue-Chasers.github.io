@@ -2,7 +2,11 @@ files:
   includes:
   - getting-started/faq.txt
   - getting-started/alt1.txt
-  - getting-started/requirements.txt
+  - getting-started/easy-requirements.txt
+  - getting-started/medium-requirements.txt
+  - getting-started/hard-requirements/*.txt
+  - getting-started/elite-requirements-optimal.txt
+  - getting-started/master-requirements/*.txt
   - getting-started/useful-links.txt
   - gathering-clues/easy-gathering.txt
   - gathering-clues/medium-gathering.txt
