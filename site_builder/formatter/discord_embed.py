@@ -21,6 +21,7 @@ JSON_EMBED_FORMAT_SEQUENCE = [
     DiscordRoleID,
     MarkdownLink,
     PVMESpreadSheet,
+    CCSpreadSheet,
     EmbedCodeBlock,
     EmbedCodeInline
 ]

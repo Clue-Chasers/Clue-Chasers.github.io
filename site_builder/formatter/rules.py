@@ -3,16 +3,16 @@ Collection of all message formatting rules.
 """
 import re
 from abc import ABC, abstractmethod
-import os
 import logging
 from pathlib import Path
 
 from site_builder.formatter.pvme_settings import PVMESpreadsheetData, PVMEUserData, PVMERoleData, PVMEChannelData
+from site_builder.formatter.cc_settings import CCSpreadsheetData
 from site_builder.formatter.attachment_embed import get_attachment_from_url
 
 __all__ = ['Section', 'Emoji', 'Insert', 'EmbedLink', 'LineBreak', 'DiscordWhiteSpace', 'PVMESpreadSheet',
            'DiscordChannelID', 'DiscordUserID', 'DiscordRoleID', 'MarkdownLink', 'EmbedCodeBlock',
-           'MarkdownLineSpacing', 'EmptyLines', 'EmbedCodeInline', 'ToCPinsMention']
+           'MarkdownLineSpacing', 'EmptyLines', 'EmbedCodeInline', 'ToCPinsMention', 'CCSpreadSheet']
 
 logger = logging.getLogger('file_formatter.rules')
 logger.level = logging.WARN
@@ -159,6 +159,21 @@ class PVMESpreadSheet(AbsFormattingRule):
             price_formatted = PVMESpreadSheet.PVME_SPREADSHEET_DATA.cell_data(match.group(1), match.group(2),
                                                                               int(match.group(3)))
             content = content[:match.start()] + price_formatted + content[match.end():]
+        return content
+
+
+class CCSpreadSheet(AbsFormattingRule):
+    """Format "$data_cc:TTLeaderboard!C2$" to the content from the clue chasers spreadsheet."""
+    PATTERN = re.compile(r"\$data_cc:([^!]+)!([A-Za-z]+)([1-9]\d*)\$")
+    CC_SPREADSHEET_DATA = CCSpreadsheetData()
+
+    @staticmethod
+    def format_content(content):
+        matches = [match for match in re.finditer(CCSpreadSheet.PATTERN, content)]
+        for match in reversed(matches):
+            data_formatted = CCSpreadSheet.CC_SPREADSHEET_DATA.cell_data(match.group(1), match.group(2),
+                                                                         int(match.group(3)))
+            content = content[:match.start()] + data_formatted + content[match.end():]
         return content
 
 

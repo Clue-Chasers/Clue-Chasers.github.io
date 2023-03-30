@@ -18,6 +18,7 @@ DEFAULT_FORMAT_SEQUENCE = [
     Insert,
     DiscordWhiteSpace,
     PVMESpreadSheet,
+    CCSpreadSheet,
     DiscordChannelID,
     DiscordUserID,
     DiscordRoleID,
