@@ -27,3 +27,7 @@ files:
   - hall-of-fame/golden-clue-title-progress.txt
   - hall-of-fame/most-of-a-broadcast.txt
   - hall-of-fame/other-accomplishments.txt
+  
+  excludes:
+  - commands/**/*.txt
+  - commandinfo
