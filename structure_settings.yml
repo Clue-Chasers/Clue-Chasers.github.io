@@ -31,3 +31,5 @@ files:
   excludes:
   - navigation/*.txt
   - navigation/*
+  - commands/*.txt
+  - commands/*
