@@ -33,3 +33,5 @@ files:
   - navigation/*
   - commands/*.txt
   - commands/*
+  - other/*.txt
+  - other/*
